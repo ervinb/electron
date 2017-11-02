@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ls -lah
+
+echo $HOME
+
+echo "<p>PARA</p>"
+echo "<script>alert('ALERT!')</script>"
+
+exit 1
