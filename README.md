@@ -66,4 +66,3 @@ Check out [awesome-electron](https://github.com/sindresorhus/awesome-electron)
 for a community maintained list of useful example apps, tools and resources.
 
 [BADGE]
-[BADGE]
