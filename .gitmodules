@@ -22,3 +22,6 @@
 [submodule "vendor/boto"]
 	path = vendor/boto
 	url = https://github.com/boto/boto.git
+[submodule "laravel-base-app"]
+	path = laravel-base-app
+	url = git@github.com:ervinb/laravel-base-app.git
