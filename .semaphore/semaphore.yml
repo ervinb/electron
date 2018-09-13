@@ -1,4 +1,4 @@
-version: "v1.0-beta-task"
+version: "v1.0"
 name: First pipeline example
 agent:
   machine:
@@ -27,6 +27,8 @@ blocks:
         commands:
           - checkout
           - echo "make smoke"
+          - sem-version ruby 2.4
+          - ruby -v
 
   - name: "Unit tests"
     task:
